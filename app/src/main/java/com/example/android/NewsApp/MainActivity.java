@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 String url = news.getmArticleUrl();
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 System.out.println("URL INTENT: "+url);
+                System.out.println("test commit change");
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
             }
